@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ben-pd.com - PT. Bentang Primanova Dwipantara Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Portfolio HTML Template" name="keywords">
+        <meta content="Portfolio HTML Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    
+<!-- Responsive Enhancements -->
+<style>
+/* Global reset */
+* { box-sizing: border-box; }
+
+/* Logo */
+
+<!--#logo img { max-width: 320px !important; height: auto; }-->
+#logo img {
+  height: auto;
+  max-width: 160px; /* default mobile */
+}
+
+@media (min-width: 768px) {
+  #logo img {
+    max-width: 220px; /* tablet */
+  }
+}
+
+@media (min-width: 1200px) {
+  #logo img {
+    max-width: 260px; /* desktop */
+  }
+}
+
+
+/* Mobile nav */
+.mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    font-size: 32px;
+    color: #000;
+    cursor: pointer;
+    z-index: 9999;
+}
+.mobile-nav {
+    display: none;
+    background: #111;
+    padding: 15px;
+}
+.mobile-nav a {
+    display: block;
+    padding: 12px 0;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+/* Desktop menu default */
+#nav-menu-container { display: none; }
+
+@media (min-width: 992px) {
+    #nav-menu-container { display: block; }
+    .mobile-nav-toggle { display: none; }
+}
+
+/* Carousel image fix */
+.carousel-background img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Text improvements */
+p, h2, h3, h4, h5 {
+    line-height: 1.45;
+    word-wrap: break-word;
+}
+
+/* Image responsive */
+img { max-width: 100%; height: auto; }
+
+/* Portfolio responsive */
+.portfolio-item { width: 100%; }
+@media (min-width: 768px) { .portfolio-item { width: 50%; } }
+@media (min-width: 992px) { .portfolio-item { width: 33.33%; } }
+
+/* Google Maps responsive */
+iframe { max-width: 100%; }
+
+/* Reduce paddings for mobile */
+@media (max-width: 768px) {
+    .section-header, .welcome { max-width: 95% !important; }
+}
+</style>
+
+</head>
+
+    <body>
+        <!-- Header Nav Start -->
+        <div id="header">
+            <div class="container-fluid">
+                <div id="logo" class="pull-left">
+                    <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+                </div>
+                
+                
+<div class="mobile-nav-toggle">☰</div>
+<div class="mobile-nav">
+    <a href="#header-carousel">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#portfolio">Our Portfolio</a>
+    <a href="#contact">Contact Us</a>
+</div>
+
+<nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="#header-carousel">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>                        
+                        <li><a href="#portfolio">Our Portfolio</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Header Nav End -->
+        
+        <!-- Header carousel Start-->
+        <div id="header-carousel">
+            <div class="header-carousel-container">
+                <div id="headerCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#headerCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#headerCarousel" data-slide-to="1"></li>
+                        <li data-target="#headerCarousel" data-slide-to="2"></li>
+                        <li data-target="#headerCarousel" data-slide-to="3"></li>
+                        <li data-target="#headerCarousel" data-slide-to="4"></li>
+                    </ul>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-background"><img src="img/slider-1.jpg" alt=""></div>
+                            <div class="carousel-container">
+                                <div class="carousel-content" style="max-width: 90%;">
+                                    <h2>Navigation System</h2>
+                                    <p>
+                                        Ben-PD integrates navigation systems essential for safe and precise aircraft routing, approach, and landing operations. Our solutions include the harmonization of NAVAIDS such as DVOR/DME, NDB, ILS components, radar systems, ADS-B sensors, and supporting communication links. We ensure optimal signal performance, interference reduction, and redundancy design to maintain reliability under demanding operational conditions.
+The result is a navigation ecosystem that delivers accurate guidance, airspace efficiency, and compliance with ICAO Annex standards.
+
+                                    </p>
+                                    <a href="" class="btn-get-started scrollto">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/slider-2.jpg" alt=""></div>
+                            <div class="carousel-container">
+                                <div class="carousel-content" style="max-width: 90%;">
+                                    <h2>Airfield Lighting System </h2>
+                                    <p>
+                                        A critical element for airside safety. We provide full-cycle engineering, from design and installation to maintenance of precision approach lighting, runway edge lights, taxiway lighting, and associated Constant Current Regulators (CCR). Our solutions ensure compliance with rigorous aviation standards (e.g., ICAO Annex 14) to support visual guidance for pilots during all operational phases, day and night.
+                                    </p>
+                                    <a href="" class="btn-get-started scrollto">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/slider-3.jpg" alt=""></div>
+                            <div class="carousel-container">
+                                <div class="carousel-content" style="max-width: 90%;">
+                                    <h2>MECHANICAL & ELECTRICAL SERVICES</h2>
+                                    <p>
+                                        Ben-PD delivers high-demand Mechanical & Electrical (M/E) engineering solutions for safety-critical and mission-critical operations centers. Our expertise guarantees power stability, environmental reliability, and intelligent automation, ensuring resilient infrastructure for the most demanding technical environments.   
+                                (Electrical Power & Distribution Systems, HVAC Systems, Fire Detection & Suppression Systems, Plumbing & Drainage Systems, Building Management Systems (BMS), Smart Facility Automation, Renewable Energy Integration, Energy Management Solutions)
+                                    </p>
+                                    <a href="" class="btn-get-started scrollto">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/slider-4.jpg" alt=""></div>
+                            <div class="carousel-container">
+                                <div class="carousel-content" style="max-width: 90%;">
+                                    <h2>ATC (Air Traffic Control) System</h2>
+                                    <p>
+                                        We integrate ATC systems that support safe, coordinated, and efficient aircraft movement across controlled airspace. 
+                                        Our engineering approach ensures seamless communication, minimal latency, high system availability, and compliance with global ATC operational requirements. This allows air traffic controllers to manage traffic flow with precision and confidence.
+                                    </p>
+                                    <a href="" class="btn-get-started scrollto">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-background"><img src="img/slider-5.jpg" alt=""></div>
+                            <div class="carousel-container">
+                                <div class="carousel-content">
+                                    <h2>DIGITAL INFRASTRUCTURE & AUTOMATION</h2>
+                                    <p>
+                                        We specialize in integrating Extra-Low Voltage (ELV) and ICT subsystems into a unified, data-driven backbone. This includes enterprise-grade Networking, CCTV Surveillance, Access Control, Fire Alarm (FA), Public Address and General Alarm (PAGA), and Parking Management Systems. Our approach ensures these platforms communicate seamlessly, enabling real-time monitoring, optimized facility performance, and automated responses that guarantee safety and operational continuity. Essentially, we build the digital nervous system that drives a truly smart environment.
+                                    </p>
+                                    <a href="" class="btn-get-started scrollto">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#headerCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon fa fa-chevron-left" aria-hidden="true"></span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#headerCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon fa fa-chevron-right" aria-hidden="true"></span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- Header carousel End-->
+
+        <!-- About Us Start-->
+        <!--<div id="about"> -->
+        <div id="about" style="
+            background-image: url('img/about-backk1.jpg'); 
+            background-repeat: no-repeat; 
+            background-position: center center; 
+            background-size: cover;">   
+            <div class="container-fluid" >                
+                <div class="section-header" >
+                    <h5 style="color: rgb(22, 5, 170); font-size: 1.3em;">Navigating Complexity. Delivering Certainty. The Quality You Deserve</h5>
+                    <h2>About Us</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="welcome m-auto" style="max-width: 80%;">
+                            <p style="color: rgb(12, 12, 12);  font-size: 1.2em;">
+                                In a world driven by rapid digital transformation, organizations face a dual challenge: the need to innovate and the absolute necessity of operational reliability. At PT Bentang Primanova Dwipantara (Ben-PD), we understand that technology is no longer just a support function—it is the backbone of business continuity and safety.
+                            <br><br>
+                                We established Ben-PD with a singular vision: to bridge the gap between complex engineering systems and seamless operational utility. Whether we are securing a critical data center, modernizing an international airport terminal, or integrating smart building automation, our approach remains grounded in precision and human insight.
+                            <br><br>
+                                We do not just install systems; we engineer certainty. Our commitment to our clients is to be more than a vendor. We are your strategic partners in navigating the future, ensuring that your infrastructure is resilient, compliant, and ready for tomorrow’s challenges
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <br><br>
+                    <hr style="border: 1px solid rgb(77, 29, 29); width: 90%; margin: 20px auto;">
+
+                </div>
+                <div class="section-header">
+                    <h4 style="color: rgb(22, 5, 170);"></h4>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="welcome m-auto" style="max-width: 80%;">
+                            <p style="color: rgb(12, 12, 12);  font-size: 1.2em;">
+                               PT. Bentang Primanova Dwipantara (Ben-PD) is a high-technology systems engineering company specializing in the end-to-end integration of advanced digital infrastructure, mission-critical automation, and intelligent facility technologies.
+                               <br><br>
+                                Built on a multidisciplinary foundation—spanning Information Technology, Mechanical & Electrical Engineering, and Smart Ecosystems—Ben-PD delivers unified, scalable, and resilient systems for environments where precision and operational continuity are essential, such as aviation and critical infrastructures.
+                                <br><br>
+                                Our core strength lies not merely in connecting systems, but in acting as a technical solution architect. We apply strict methodologies, including risk mapping and performance simulation, to integrate complex multi-platform technologies—from enterprise cybersecurity and SCADA integration to real-time airport surveillance and smart terminal automation.
+                                <br><br>
+                                We engineer intelligence. Our solutions are designed to detect anomalies, optimize performance, and provide actionable data, ensuring every system operates reliably and efficiently under all conditions.
+                                <br><br>
+                                We integrate the future of your business.
+                            </p>                            
+                            <a class="btn" href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 about-col">
+                        <div class="about-content">
+                            <i class="fa fa-history"></i>
+                            <h2>Our Story</h2>
+                            <p>
+                                PT. Bentang Primanova Dwipantara (Ben-BD) was founded on a singular premise: the growing complexity of modern digital infrastructure demands a unified, intelligently engineered response. Born from the need to bridge the gaps between ICT, mechanical-electrical systems, and strategic automation, our journey began with a commitment to deliver certainty—not just technology. Today, we stand as Indonesia's dedicated integrator, operating with engineering excellence and disciplined execution to transform critical infrastructures and enterprises into resilient, connected, and future-ready ecosystems. Our story is one of continuous innovation, focused entirely on empowering organizations through solutions that are engineered with precision and supported with unwavering integrity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 about-col">
+                        <div class="about-content">
+                            <i class="fa fa-bullseye"></i>
+                            <h2>Our Mission</h2>
+                            <p>
+                                Our mission is to engineer mission-critical digital ecosystems by seamlessly integrating ICT, mechanical-electrical systems, and smart automation technologies to meet and exceed global reliability standards. We are driven to deliver measurable operational impact through relentless engineering excellence and the strategic application of future-ready technologies, ensuring enhanced safety, precision, and uptime across airports, enterprises, and high-risk operational facilities. Ultimately, we seek to build enduring, long-term partnerships through transparent processes, disciplined project execution, and an unwavering commitment to quality and performance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 about-col">
+                        <div class="about-content">
+                            <i class="fa fa-eye"></i>
+                            <h2>Our Vision</h2>
+                            <p>
+                                To lead as Indonesia’s foremost high-technology systems integrator, setting the definitive benchmark for advanced, secure, and intelligent engineering solutions nationwide. We are dedicated to transforming the nation's critical infrastructures—including airports and leading enterprises—into comprehensively connected, digitally resilient, and sustainable future-ready environments, thus enabling sophisticated data-driven decision-making and driving the next generation of operational excellence across the archipelago.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Us End-->
+
+        <!-- Services Start -->
+        <div id="services">
+            <div class="container" style="max-width: 90%;">
+                <div class="section-header" style="max-width: 90%;">
+                    <h2>Our Services</h2>
+                    <p style="color: rgb(0, 0, 0);  font-size: 1.2em;">
+                        Ben-PD operates at the intersection of advanced Information Technology, Mechanical & Electrical engineering, and Smart Infrastructure integration. These domains form a unified business ecosystem designed to support large-scale digital operations and safety-critical environments.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon">
+                                <i class="fa fa-compass"></i>
+                            </div>
+                            <h3>Navigation System</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(245, 241, 5);  font-size: 1.2em;">
+                                We seamlessly integrate diverse NAVAIDS—such as DVOR/DME, ILS, NDB, radar systems, and ADS-B sensors—to ensure optimal signal performance, minimal interference, and high-level redundancy design. The result is a highly reliable navigation ecosystem that delivers accurate guidance, promotes airspace efficiency, and maintains strict compliance with ICAO Annex standards.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-plane"></i> </div>
+                            <h3>Airport Terminal System</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(255, 255, 255);  font-size: 1.2em;">
+                                We integrate smart terminal technologies that enhance passenger experience, operational efficiency, and real-time visibility. This includes check-in systems, baggage handling automation, FIDS/BIDS architecture, access control integration, surveillance systems, passenger screening systems, IoT sensors, environmental control systems, and terminal operational dashboards.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-lightbulb-o"></i> </div>
+                            <h3>Airfield Lighting System</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(245, 241, 5);  font-size: 1.2em;">
+                                A critical element for airside safety. We provide full-cycle engineering, from design and installation to maintenance of precision approach lighting, runway edge lights, taxiway lighting, and associated Constant Current Regulators (CCR). Our solutions ensure compliance with rigorous aviation standards (e.g., ICAO Annex 14) to support visual guidance for pilots during all operational phases, day and night
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-rss"></i> </div>
+                            <h3>ATC (Air Traffic Control) System</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(255, 255, 255);  font-size: 1.2em;">
+                                We integrate ATC systems that support safe, coordinated, and efficient aircraft movement across controlled airspace. 
+                                <br>
+                                Our engineering approach ensures seamless communication, minimal latency, high system availability, and compliance with global ATC operational requirements. This allows air traffic controllers to manage traffic flow with precision and confidence.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-android"></i> </div>
+                            <h3>Smart Surveillance, Access Control & Unified Data-Voice-Video Communication</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(245, 241, 5);  font-size: 1.2em;"> 
+                                We deploy AI-enhanced CCTV clusters, thermal imaging, long-range IP video feeds, ANPR systems, biometric access control, and perimeter-security automation—integrated into a unified monitoring dashboard.
+                                We integrate SIP-based voice systems, IP-PBX, video conference platforms, operator consoles, and multimedia-enabled communication networks for real-time command and operational flow.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-database" ></i> </div>
+                            <h3>INFORMATION TECHNOLOGY SERVICES</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(255, 255, 255);  font-size: 1.2em;">
+                                Custom Application Engineering -> We design applications built on modern architecture (API-based, containerized workloads, microservices) aligned with operational workflows and enterprise demands.
+                                </p>
+                                <p style="color: rgb(255, 255, 255);  font-size: 1.2em;">
+                                    Managed IT Services -> We provide end-to-end IT management, including network operations, cybersecurity monitoring, helpdesk support, and infrastructure maintenance to ensure optimal performance and uptime.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-bolt""></i> </div>
+                            <h3>MECHANICAL & ELECTRICAL SERVICES</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(245, 241, 5);  font-size: 1.2em;"> 
+                                 Ben-PD delivers high-demand Mechanical & Electrical (M/E) engineering solutions for safety-critical and mission-critical operations centers. Our expertise guarantees power stability, environmental reliability, and intelligent automation, ensuring resilient infrastructure for the most demanding technical environments.   
+                                (Electrical Power & Distribution Systems, HVAC Systems, Fire Detection & Suppression Systems, Plumbing & Drainage Systems, Building Management Systems (BMS), Smart Facility Automation, Renewable Energy Integration, Energy Management Solutions)
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-bar-chart""></i> </div>
+                            <h3>DIGITAL INFRASTRUCTURE & AUTOMATION</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(255, 255, 255);  font-size: 1.2em;">
+                                We specialize in integrating Extra-Low Voltage (ELV) and ICT subsystems into a unified, data-driven backbone. This includes enterprise-grade Networking, CCTV Surveillance, Access Control, Fire Alarm (FA), Public Address and General Alarm (PAGA), and Parking Management Systems.
+                            Our approach ensures these platforms communicate seamlessly, enabling real-time monitoring, optimized facility performance, and automated responses that guarantee safety and operational continuity. Essentially, we build the digital nervous system that drives a truly smart environment.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-refresh"></i> </div>
+                            <h3>Digital System Engineering & Lifecycle Management</h3>
+                            <div class="service-detail">
+                                <p style="color: rgb(245, 241, 5);  font-size: 1.2em;"> 
+                                Ben-PD manages the entire lifecycle of digital infrastructure and critical systems—from analysis, design, and implementation to long-term maintenance and upgrade planning.
+                                Our services include system audits, performance optimization, compliance assessments, and technology refresh strategies to ensure that infrastructures remain resilient, secure, and aligned with evolving operational needs.
+                             </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Counter Start -->
+        <div id="counters" >
+            <div class="container"style="max-width: 90%;">
+                <div class="section-header" style="max-width: 90%;">
+                    <h5 style="color: rgb(10, 7, 0);">OUR VALUE PROPOSITION </h5>
+                    <h2 style="color: rgb(0, 0, 0);">WHY PARTNER WITH Ben-PD ?</h2>
+                    <p style="color: rgb(255, 255, 255);  font-size: 1.2em;">
+                        At PT. Bentang Primanova Dwipantra (Ben-PD), we deliver more than technology — we deliver clarity, reliability, and engineered results. Our value proposition is built on three pillars: deep technical expertise, disciplined execution, and a commitment to long-term partnership.
+                        <br><br>
+                        Choosing PT. Bentang Primanova Dwipantra (Ben-PD) means partnering with a technology provider that combines disciplined engineering, strategic insight, and unwavering commitment to operational excellence. We bring clarity to complexity and deliver solutions that elevate performance, strengthen reliability, and support long-term transformation.
+                        <br><br>
+                        Ben-PD exists to transform complex technical requirements into solutions that empower organizations, strengthen infrastructure, and unlock long-term value.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="counters-col">
+                            <div class="counters-icon"><i class="fa fa-android fa-4x"></i></div>
+                            <h3 style="color: rgb(161, 245, 6);">We Integrated Engineering Across Disciplines</h3>
+                            <div class="counters-detail">
+                                Ben-PD unifies Information Technology, software development, mechanical and electrical systems, and digital infrastructure into a seamless ecosystem. This cross-disciplinary capability allows us to design solutions that are not only technically sound, but operationally optimized
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-6">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-cogs  fa-4x"></i> </div>
+                            <h3 style="color: rgb(161, 245, 6);">Tailor-Made Solutions for Mission-Critical Environments</h3>
+                            <div class="service-detail">
+                                We specialize in environments where reliability is non-negotiable. From airport systems and enterprise networks to multi-platform applications, every solution is architected with precision, security, and continuous performance as its core principles.
+                            </div>
+                                
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-cog fa-4x"></i> </div>
+                            <h3 style="color: rgb(161, 245, 6);">Future-Ready Technology Designed with Insight</h3>
+                            <div class="service-detail">
+                                Client needs evolve — and so must technology. Our solutions are engineered with scalability, cloud enablement, and long-term sustainability in mind, ensuring that organizations can grow without disrupting existing operations.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-eye fa-4x"></i> </div>
+                            <h3 style="color: rgb(161, 245, 6);">End-to-End Delivery with Measurable Outcomes</h3>
+                            <div class="service-detail">
+                                Ben-PD provides full lifecycle services: consulting, design, development, integration, installation, maintenance, and managed operations. We take accountability for the entire process, ensuring alignment, consistency, and tangible improvements in efficiency and resilience
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-bullseye fa-4x"></i> </div>
+                            <h3 style="color: rgb(161, 245, 6);">Partnership Built on Trust and Professional Integrity</h3>
+                            <div class="service-detail">
+                                We invest in understanding our clients’ operational landscape, business challenges, and strategic objectives. This allows us to become not just a vendor, but a trusted partner that supports continuous improvement and sustained innovation
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="service-col">
+                            <div class="service-icon"><i class="fa fa-history fa-4x"></i> </div>
+                            <h3 style="color: rgb(161, 245, 6);">Cross-Disciplinary Engineering Expertise</h3>
+                            <div class="service-detail">
+                                Ben-PD integrates IT, software development, mechanical & electrical engineering, smart facility technologies, and digital ecosystems into one unified capability. This multi-domain strength allows us to design solutions holistically — ensuring interoperability, efficiency, and seamless integration across systems
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+        
+        <!-- Portfolio Start -->
+        <div id="portfolio">
+            <div class="container" style="max-width: 90%;">
+                <header class="section-header" style="max-width: 90%;">
+                    <h3 class="section-title">Our Portfolio</h3>
+                   <p style="color: rgb(17, 1, 105);  font-size: 1.2em;">
+                        Ben-PD’s project portfolio reflects our engineering capability in delivering high-reliability systems for airports, enterprises, industrial facilities, and mission-critical environments. Each deployment demonstrates our proficiency in integrating ICT, mechanical-electrical infrastructures, and smart automation technologies into unified operational ecosystems.
+                    <br><br>
+                        Our engineering team has supported airport modernization programs, including the deployment of IP-based surveillance clusters, access control architecture, terminal automation, fiber-optic backbone upgrading, and environmental monitoring sensors across multi-zone facilities. We have contributed to infrastructures supporting airside operations, landside management, terminal security, and command-center visibility, ensuring all systems operate under stringent reliability and uptime requirements.
+                    <br><br>
+                        Whether upgrading critical room infrastructures, integrating smart facility systems, engineering high-density networks, or optimizing security architecture, Ben-PD continues to deliver measurable value and operational excellence across sectors.
+                    </p>
+                </header>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".nav-dev">Navigation System</li>
+                            <li data-filter=".afl-dev">Airfield Lighting System</li>
+                            <li data-filter=".cctv-dev">CCTV & PAGA System</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item nav-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/portfolio-1.jpg" class="img-fluid" alt="">
+                                <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Lorem ipsum dolor sit" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lorem ipsum dolor sit <span>Navigation System</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item nav-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="">
+                                <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Lorem ipsum dolor sit" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lorem ipsum dolor sit <span>Navigation System</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item afl-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
+                                <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Lorem ipsum dolor sit" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lorem ipsum dolor sit <span>Airfield Lighting System</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item afl-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
+                                <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Lorem ipsum dolor sit" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lorem ipsum dolor sit <span>Airfield Lighting System</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item cctv-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
+                                <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio" data-title="Lorem ipsum dolor sit" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lorem ipsum dolor sit <span>CCTV & PAGA System</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item cctv-dev">
+                        <div class="portfolio-wrap">
+                            <figure>
+                                <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
+                                <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio" data-title="Lorem ipsum dolor sit" title="Preview"><i class="fa fa-eye"></i></a>
+                                <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                <h4 class="portfolio-title">Lorem ipsum dolor sit <span>CCTV & PAGA System</span></h4>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+
+        <!-- Testimonials Start -->
+        <div id="testimonials">
+            <div class="container">
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3>Jayden Vaughan</h3>
+                            <h4>Science technician</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra at massa sit amet ultricies. Nullam consequat, mauris non interdum cursus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3>Aidan Brooks</h3>
+                            <h4>Industrial relations manager</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra at massa sit amet ultricies. Nullam consequat, mauris non interdum cursus.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3>Reece Kent</h3>
+                            <h4>Videographer</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra at massa sit amet ultricies. Nullam consequat, mauris non interdum cursus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonials End -->
+
+        <!-- Contact Start -->
+        <div class="contact" id="contact">
+            <div class="container">
+                
+                <div class="section-header">
+                    
+                    <h3>Contact Us</h3>
+                    <div id="logo" class="pull-center" style="text-align:center;">
+                       <a href="index.html" style="text-decoration:none;">
+                         <img src="img/logobpd.png" alt="Logo" style="max-width:150px; height:auto; display:block; margin:0 auto;" />
+                          <h1 style="margin-top:10px; text-align:center;">PT. Bentang Primanova Dwipantara</h1>
+                        </a>
+                    </div>
+
+                    <p>
+                        Ready to discuss your project? Our experts are standing by to assist with inquiries about our services, products, and potential collaborations. Get in touch via the contact form or use the information below.
+                    </p>
+                </div>
+                
+
+                <div class="row align-items-start">
+                    <div class="col-md-7">
+                        <div class="form">
+                            <form action="" method="">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control" placeholder="Your Name" />
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="email" class="form-control" placeholder="Your Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject" />
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="7" placeholder="Message"></textarea>
+                                </div>
+                                <div><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="contact-info">
+                            <!--<img src="img/map.jpg" alt="Map" />-->
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d578.3332723056023!2d106.7167920692447!3d-6.239756986251937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1764941541990!5m2!1sen!2sid" 
+                           width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <a href="https://maps.app.goo.gl/h22vjR1xHaQRPp98A" target="_blank" style="color: white; text-decoration: none;">
+                            <p><i class="fa fa-map-marker"></i>Jl Cipto Mangunkusumo, Komplek Makota Simprug Blok C.5 No.19, Ciledug-Kota Tangerang, Banten-INDONESIA-15153</p></a>
+                             <a href="mailto:info@ben-pd.com" class="text-light" style="text-decoration: none;">
+                            <p><i class="fa fa-envelope"></i>info@ben-pd.com</p></a>
+                            <a href="https://wa.me/628190505010509" class="text-light" style="text-decoration: none;">                    
+                            <p><i class="fa fa-phone"></i>+62-819-0501-0509</p></a>
+                            <div class="social">
+                                <a href=""><i class="fa fa-twitter"></i></a>
+                                <a href=""><i class="fa fa-facebook"></i></a>
+                                <a href=""><i class="fa fa-linkedin"></i></a>
+                                <a href=""><i class="fa fa-instagram"></i></a>
+                                <a href=""><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <div id="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>&copy; Copyright <a href="https://htmlcodex.com">HTML Codex</a>. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Template by <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/menuspy/menuspy.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    
+<script>
+document.querySelector('.mobile-nav-toggle').addEventListener('click', function(){
+    const m = document.querySelector('.mobile-nav');
+    m.style.display = m.style.display === 'block' ? 'none' : 'block';
+});
+</script>
+
+</body>
+</html>
